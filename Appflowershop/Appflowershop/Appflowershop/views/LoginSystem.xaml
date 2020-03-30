@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Appflowershop.views.LoginSystem">
+    <ContentPage.Content>
+        <StackLayout x:Name="mastelayout" VerticalOptions="Start" >
+            <StackLayout x:Name="Locostack">
+                <Image x:Name="logoApp" Source="flower.png" Margin="0,10,0,0" HeightRequest="80"/>
+                <Label Text="Flower Shop" VerticalOptions="FillAndExpand" HorizontalOptions="Center"/>
+            </StackLayout>
+
+            <StackLayout x:Name="submaster" VerticalOptions="FillAndExpand" >
+                <StackLayout.Padding>
+                    <OnIdiom x:TypeArguments="Thickness" Phone="10,0,10,0">
+                    </OnIdiom>
+                </StackLayout.Padding>
+                <ActivityIndicator x:Name="Activitye" Color="Red" IsRunning="True"/>
+                <Label x:Name="laUsername" Text="Username:"/>
+                <Entry x:Name="EUsername" Placeholder="username"/>
+                <Label x:Name="laPassword" Text="Password"/>
+                <Entry x:Name="EPassword" Placeholder="password"/>
+                <Button x:Name="btnsignin" Text="Log in" Clicked="insertname" />
+                <Button x:Name="registed" Text="registed" Clicked="newpage"  />
+            <StackLayout  Margin="0,0,220,0">
+            <Button x:Name="forgetPassword" Text="forgetPassword"/>
+            </StackLayout>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

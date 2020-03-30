@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Appflowershop.views.Registed">
+    
+        <StackLayout x:Name="mastelayout" VerticalOptions="FillAndExpand">
+            <StackLayout x:Name="submaster" VerticalOptions="StartAndExpand">
+                <StackLayout.Padding>
+                    <OnIdiom x:TypeArguments="Thickness" Phone="20,0,20,0">
+                    </OnIdiom>
+                </StackLayout.Padding>
+                <ActivityIndicator x:Name="Activitye" Color="Red" IsRunning="True" IsVisible="False"/>
+                <Label x:Name="Name2" Text="ลงทะเบียน" FontSize="Large"/>
+                <Label x:Name="LNameFL" Text="ชื่อนานสกุล:" FontSize="Small"/>
+                <Entry x:Name="ENameFL" Placeholder="ชื่อ-นานสกุล"/>
+                <Label x:Name="Name" Text="ตั้งชื่อผู้ใช้:" FontSize="Small"/>
+                <Entry x:Name="EUsername" Placeholder="Username"/>
+                <Label x:Name="laPassword" Text="ตั้งรหัสผ่าน" FontSize="Small"/>
+                <Entry x:Name="Password" Placeholder="Password"/>
+            <Label x:Name="laPassword2" Text="ใส่รหัสอีกครั้ง" FontSize="Large"/>
+            <Entry x:Name="Password2" Placeholder="Password"/>
+            <Button x:Name="btnsubmit" Text="ยีนยัน" Clicked="Submit"/>
+                <Button x:Name="btncancel" Text="ยกเลิก" Clicked="Cancel"/>
+            </StackLayout>
+        </StackLayout>
+    
+</ContentPage>

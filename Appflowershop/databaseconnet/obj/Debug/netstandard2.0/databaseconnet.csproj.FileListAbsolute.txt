@@ -1,0 +1,5 @@
+C:\Users\NonGay\Desktop\Projectflower\Appflowershop\databaseconnet\bin\Debug\netstandard2.0\databaseconnet.deps.json
+C:\Users\NonGay\Desktop\Projectflower\Appflowershop\databaseconnet\bin\Debug\netstandard2.0\databaseconnet.dll
+C:\Users\NonGay\Desktop\Projectflower\Appflowershop\databaseconnet\obj\Debug\netstandard2.0\databaseconnet.csprojAssemblyReference.cache
+C:\Users\NonGay\Desktop\Projectflower\Appflowershop\databaseconnet\obj\Debug\netstandard2.0\databaseconnet.AssemblyInfoInputs.cache
+C:\Users\NonGay\Desktop\Projectflower\Appflowershop\databaseconnet\obj\Debug\netstandard2.0\databaseconnet.AssemblyInfo.cs

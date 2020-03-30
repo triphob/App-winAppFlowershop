@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Appflowershop.views.menu.menuOrderDetail"
+             Title="สินค้า">
+    <StackLayout BackgroundColor="Azure">
+        <StackLayout  Padding="0,0,0,10" >
+            <Label x:Name="namegoods" Text="สินค้า1" HorizontalOptions="Fill" Margin="200,20,0,0"/>
+            <Label x:Name="nongoods" Text="ราคา: " HorizontalOptions="Fill" Margin="200,0,0,0"/>
+            <Label x:Name="pricegoods" Text="ราคา: " HorizontalOptions="Fill" Margin="240,-25,0,0"/>
+            <Image x:Name="Photogoods" HorizontalOptions="Fill"
+                Margin="20,-50,220,16"
+                Aspect="Fill"
+                BackgroundColor="Brown"
+                WidthRequest="100"
+                HeightRequest="100" Source="dc_1.jpg"/>
+            <Button Text="ซื้อ" HorizontalOptions="FillAndExpand" Margin="195,-65,90,0" Clicked="Add"/>
+        </StackLayout>
+        <StackLayout  Padding="0,0,0,10" >
+                <Label x:Name="namegoods1" Text="สินค้า1" HorizontalOptions="Fill" Margin="200,20,0,0"/>
+                <Label x:Name="nongoods1" Text="ราคา: " HorizontalOptions="Fill" Margin="200,0,0,0"/>
+                <Label x:Name="pricegoods1" Text="ราคา: " HorizontalOptions="Fill" Margin="240,-25,0,0"/>
+            <Image x:Name="Photogoods1" HorizontalOptions="Fill"
+                    Margin="20,-50,220,16"
+                    Aspect="Fill"
+                    BackgroundColor="Brown"
+                    HeightRequest="100"
+                    WidthRequest="100" Source="dc_1.jpg"/>
+            <Button Text="ซื้อ" HorizontalOptions="FillAndExpand" Margin="195,-65,90,0" Clicked="Add1"/>
+            </StackLayout>
+        <StackLayout  Padding="0,0,0,10" >
+            <Label x:Name="namegood2" Text="สินค้า1" HorizontalOptions="Fill" Margin="200,20,0,0"/>
+            <Label x:Name="nongoods2" Text="ราคา: " HorizontalOptions="Fill" Margin="200,0,0,0"/>
+            <Label x:Name="pricegoods2" Text="ราคา: " HorizontalOptions="Fill" Margin="240,-25,0,0"/>
+            <Image x:Name="Photogoods2" HorizontalOptions="Fill"
+                Margin="20,-50,220,16"
+                Aspect="Fill"
+                BackgroundColor="Brown"
+                HeightRequest="100"
+                WidthRequest="100" Source="dc_1.jpg"/>
+
+            <Button Text="ซื้อ" HorizontalOptions="FillAndExpand" Margin="195,-65,90,0" Clicked="Add2"/>
+        </StackLayout>
+        <StackLayout  Padding="0,0,0,10" >
+                <Label x:Name="namegoods3" Text="สินค้า1" HorizontalOptions="Fill" Margin="200,20,0,0"/>
+                <Label x:Name="nongoods3" Text="ราคา: " HorizontalOptions="Fill" Margin="200,0,0,0"/>
+                <Label x:Name="pricegoods3" Text="ราคา: " HorizontalOptions="Fill" Margin="240,-25,0,0"/>
+            <Image x:Name="Photogoods3" HorizontalOptions="Fill"
+                        Margin="20,-50,220,16"
+                        Aspect="Fill"
+                        BackgroundColor="Brown"
+                        HeightRequest="100"
+                        WidthRequest="100" Source="dc_1.jpg"/>
+
+            <Button Text="ซื้อ" HorizontalOptions="FillAndExpand" Margin="195,-65,90,0" Clicked="Add3"/>
+            </StackLayout>
+        
+            <RelativeLayout HorizontalOptions="Start"  Padding="0,0,110,0" Margin="0,-10,0,0">
+                <Button Text="back"  HorizontalOptions="Start" Clicked="Next" x:Name="buttonclick" Margin="20,0,0,0" />
+            </RelativeLayout>
+            <RelativeLayout HorizontalOptions="FillAndExpand" Padding="0,0,0,0" Margin="200,-60,0,0">
+                <Button Text="next"  HorizontalOptions="Start" Clicked="Nextt" x:Name="buttonclick1" Margin="100,0,0,0" Padding="0,0,0,0"/>
+            </RelativeLayout>
+        
+
+    </StackLayout>
+</ContentPage>

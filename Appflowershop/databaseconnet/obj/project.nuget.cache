@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "+wDMUe6rGmT03/yrFU7howgtPPaCcjKKi24Bnrzqr1lb5I29D/vdCCPOYPDpuIdlDck9HmcgrKJA8l6Ek9r/rQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\NonGay\\Desktop\\Projectflower\\Appflowershop\\databaseconnet\\databaseconnet.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\NonGay\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\NonGay\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
