@@ -71,9 +71,8 @@ namespace projectflower
 
         private void label7_Click(object sender, EventArgs e)
         {
-            registed reg = new registed();
-            this.Hide();
-            reg.Show();
+            Application.Run.(new registed());
+            
         }
     }
 }
